@@ -1,7 +1,68 @@
 body {
-    margin: 20px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(0, 0%, 50%);
+  font-family: "Roboto", "Open Sans", "Lato", "Montserrat", "Inter";
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 40%);
+}
+
+h1 {
+  color: black;
+  background-color: hsl(0, 0%, 70%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  width: 190px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.menu-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.photo-credits {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #444;
+  border-top: 1px solid #ddd;
+}
+
+.photo-credits h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.photo-credits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.photo-credits li {
+  margin-bottom: 6px;
+}
+
+.photo-credits a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.photo-credits a:hover {
+  text-decoration: underline;
 }
