@@ -1,7 +1,7 @@
 import restaurantImg from "./images/pexels-reneterp-1581384.jpg";
 
 export function renderHomePage(container) {
-    container.innerHTML = `<h1>Home Page</h1>
+    container.innerHTML = `<h1>Home</h1>
     <h2>My restaurant</h2>
     <p>Welcome to my restaurant website! Come give us a try any time, any day!</p>
     <div class="restaurant-img">

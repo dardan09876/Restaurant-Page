@@ -4,7 +4,7 @@ import macronImg from "./images/pexels-brigitte-tohm.jpg";
 import coffeeImg from "./images/pexels-jayoke.jpg";
 
 export function renderMenuPage(container) {
-  container.innerHTML = `<h1>Menu Page</h1>
+  container.innerHTML = `<h1>Menu</h1>
     <div class="menu-grid">
       <img src="${pancakeImg}" alt="Caramel pancakes" />
       <img src="${yogurtImg}" alt="Waffles" />
