@@ -1,2 +1,5 @@
-import "./styles.css";
+import { navigateTo } from './router.js';
 
+document.getElementById('home-button').addEventListener('click', () => navigateTo('/'));
+document.getElementById('about-button').addEventListener('click', () => navigateTo('/about'));
+document.getElementById('menu-button').addEventListener('click', () => navigateTo('/menu'));
