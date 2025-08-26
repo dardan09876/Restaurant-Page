@@ -11,21 +11,6 @@ A small, single-page restaurant website built with **Vanilla JavaScript** and **
 - About page with a welcoming summary
 - Easy to extend with more pages or images
 
-## 📁 Project Structure
-
-project/
-├─ src/
-│ ├─ index.js # Entry point
-│ ├─ router.js # Handles SPA routing
-│ ├─ home.js # Home page content
-│ ├─ menu.js # Menu page content
-│ ├─ about.js # About page content
-│ ├─ styles.css # Global styles
-│ └─ images/ # Image assets
-├─ template.html # Base HTML template
-├─ package.json # Dependencies & scripts
-└─ webpack.config.js # Webpack config
-
 ## 🚀 Usage
 
 Click the Home, Menu, or About buttons to navigate between pages.
